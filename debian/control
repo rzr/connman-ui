@@ -1,0 +1,30 @@
+Source: connman-ui
+Section: net
+Priority: optional
+Maintainer: Shawn Landden <shawn@churchofgit.com>
+Build-Depends: debhelper (>= 9),
+ dh-autoreconf,
+ libdbus-1-dev,
+ libgtk-3-dev,
+ libglib2.0-dev,
+ intltool
+Standards-Version: 3.9.4
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=collab-maint/connman-ui.git
+Vcs-Git: git://anonscm.debian.org/collab-maint/connman-ui.git
+Homepage: https://github.com/tbursztyka/connman-ui
+
+Package: connman-ui
+Architecture: any
+Multi-Arch: foreign
+Depends: connman, ${shlibs:Depends}, ${misc:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: Full-featured GTK-based tray icon UI for ConnMan
+ It targets all WM/DM users but Gnome3 ones*. It works on any Linux WM/DM 
+ which provides a freedesktop compliant system tray. (KDE, awesome, ...)
+ .
+ It exposes almost all features provided by ConnMan API (small features are 
+ missing, see TODO for more information). You can enable/disable a technology 
+ (wired, wifi, cellular, bt, ...), connect/disconnect a service, configure a 
+ service (IPv4, IPv6, DNS, Timeservers, etc...), share your current connection 
+ (tethering) and so on. Everything is accessible through the mouse via the 
+ trayicon, all with left and right click.

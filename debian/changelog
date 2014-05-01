@@ -1,0 +1,6 @@
+connman-ui (0~20130115-1) unstable; urgency=low
+
+  * Initial release. (Closes: #717366)
+
+ -- Shawn Landden <shawn@churchofgit.com>  Sun, 18 Aug 2013 19:28:28 -0700
+

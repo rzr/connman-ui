@@ -1,0 +1,60 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0
+Upstream-Contact: Tomasz Bursztyka <tomasz.bursztyka@linux.intel.com>
+Source: https://github.com/tbursztyka/connman-ui
+
+Files: *
+Copyright: © 2012 Intel Corporation
+License: GPL-2+
+
+Files: lib/dbus.c
+Copyright: © 2012  Intel Corporation. All rights reserved.
+License: LGPL-2.1
+
+Files: data/icons/bad_signal.png
+ data/icons/low_signal.png
+ data/icons/medium_signal.png
+ data/icons/good_signal.png
+ data/icons/network_online.png
+Copyright: © Everaldo Coelho (Crystal Clear icon set)
+License: LGPL-2.1
+
+Files: data/icons/cellular.png
+ data/icons/ethernet.png
+ data/icons/network_connected.png
+ data/icons/network_disconnected.png
+ data/icons/tethering.png
+Copyright: © Gnome Project (Gnome Web icon set)
+License: GPL-2+
+
+Files: debian/*
+Copyright: © 2012 Shawn Landden <shawnlandden@gmail.com>
+License: GPL-2+
+
+License: LGPL-2.1
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License version 2.1,
+ as published by the Free Software Foundation.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-2'.
